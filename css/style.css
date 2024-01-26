@@ -1,0 +1,364 @@
+@import url(../css/normalize.css);
+
+
+ /*body{
+    background-image: url(./img-menu/CUPCAKES/Leonardo_Diffusion_XL_cup_cake_de_chocolate_y_frutilla_con_cre_0.jpg); 
+background-repeat: no-repeat;
+background-size: contain;
+
+}*/
+
+/* HEADER */
+.hero {
+    background-image: url(./img-menu/MESA/Leonardo_Diffusion_XL_mesa_con_platos_tazas_y_teteras_de_color_0\ \(10\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
+    height: 100dvh;
+    overflow: hidden;
+}
+
+/* NAV */
+.nav-menu{
+  position: fixed;
+    width: 100%;
+    height:10%;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 34%;
+    margin-top: 0.1%;
+    z-index: 1;  
+}
+
+/* UL */
+.menu{width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style:none;
+    margin-left: -7%;
+    z-index: 1;
+
+}
+
+/* A (LI) */
+ a{ background-color: #01ffaf;
+    width: 90%;
+    text-align: center;
+    text-decoration: none;
+    margin-left:20%;
+}
+
+/* MAIN
+.main_content{ */
+    /* background-color: #f72525; 
+    width: 100%;
+    height: 800dvh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    margin-top: 0%;
+}*/
+
+/* H1 */
+ .title-hero{ color: #fbf9f9;
+    position: absolute;
+    margin-top: -32%;
+}
+
+/* -------SECTION------------------  */
+
+/* H2 */
+.title-cupcakes{ 
+    color: rgb(210, 43, 31);
+
+}
+
+/* FIGURE */
+.section-cupcakes::after{/* background-color: #f08dda56; */
+    content: url(./img-menu/CUPCAKES/Leonardo_Diffusion_XL_cupcakes_corazon_1.jpg);
+
+    width: 100%;
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    overflow: hidden;
+
+
+} 
+
+/* .cupcakes_1::before{
+   
+   content: url(./img-menu/CUPCAKES/Leonardo_Diffusion_XL_Cupcakes_rosa_1.jpg);
+    
+    
+ 
+
+} */
+
+/* IMG */
+
+.title-cupcakes::before{ 
+    content: url(./img-menu/CUPCAKES/Leonardo_Diffusion_XL_cupcakes_estrella_1.jpg);
+    
+    width: 25%;
+    height: 20%;
+   
+
+}
+
+/* OL 
+.list-cupcakes {
+    background-color: #3214f4d4;
+    width: 50%;
+    height: 45%;
+    align-self: center;
+    
+    
+}*/
+
+
+/* 
+.section_cupcakes {
+    background-color: #f55dd7d3;
+    width: 100%;
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+    overflow: hidden;
+    margin-top: -7.7%;
+
+
+}
+
+.cupcakes_rosa {background-color: #ff09d2fb;
+   width: 45%;
+    height: 40%;
+    border-radius: 50%;
+    position: absolute;*/
+    /* -no----border-radius:190px 49px 199px 2px;nooo
+    object-fit: contain;
+} */
+
+/* -----------------------
+.list_cupcakes {
+    background-color: #3214f4d4;
+    width: 40%;
+    height: 20%;
+    
+    
+}
+
+.cupcakes_estrella {
+    width: 45%;
+    height: 90%;
+    border-radius: 50%;
+    object-fit: contain;
+    
+} -----------------------*/
+
+/* ------------------------- 
+.title_brownies{ color: rgb(40, 31, 210);
+
+}
+
+.section_brownies {
+    background-color: #fcf281;
+    width: 100%;
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+    margin-top: 32%;
+    overflow: hidden;
+    
+
+}
+
+
+.brownie_postre {
+    width: 45%;
+    height: 40%;
+    border-radius:190px 49px 199px 2px;
+
+position: absolute;
+margin-left:9% ;
+margin-top: -42%;
+    object-fit: cover;*/
+
+
+    /* width: 45%;
+    height: 40%;
+    border-radius: 50%;
+    position: absolute;
+    border-radius:190px 49px 199px 2px;
+    object-fit: contain; }*/
+
+
+    /* width: 45%;
+    height: 90%;
+    border-radius: 50%;
+    position: absolute;
+
+    object-fit: contain; 
+*/
+
+/*-------------------- .list_brownie {
+    background-color: #feae3e;
+    background-color: #14f41bd4;
+    width: 30%;
+    height: 30%;
+    padding: 2em;
+    position:absolute;
+    align-self: center;
+    margin-top: -71%;
+} -------------------------*/
+
+
+    /*.brownie_formas {
+
+    width: 45%;
+    height: 40%;
+    border-radius:190px 49px 199px 2px;
+
+position: absolute;
+margin-left:59% ;
+margin-top: -52%;
+    object-fit: cover;
+ noo no  width: 45%;
+    height: 40%;
+    border-radius: 50%;
+    position: absolute;
+    border-radius: 50%;
+    position: absolute;
+    object-fit: contain; noooo
+}*/
+
+/* ---------------------------- 
+.title_bebidas{ color: rgb(40, 31, 210);
+
+}
+
+.section_bebidas {
+    background-color: #acacf575;
+    width: 100%;
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+   position: absolute;
+   margin-top: 50%;
+    overflow: hidden;
+
+}
+
+
+
+.taza_chocolate {
+    width: 35%;
+    height: 40%;
+  border-radius: 50%;
+    position: absolute;
+    margin-top: -5%;
+    margin-left: 5%;*/
+
+    /* nonon border-radius:0px 69px 9px 2px;nonono
+
+    object-fit: contain;
+    z-index: 1;
+
+}*/
+
+/*.list_bebidas {
+
+    background-color: #9595fa;
+    width: 40%;
+    height: 20%;
+    border-radius:105px 690px 70px 0px;
+    padding: 4em;
+    position:absolute;
+    margin-left: 23%;
+    margin-top: -0.1%;
+    
+}
+
+.batidos_vasos {
+    width: 45%;
+    height: 40%;
+    border-radius:190px 49px 199px 2px;
+
+position: absolute;
+margin-left:79% ;
+margin-top: -22%;
+    object-fit: cover;
+}
+ ---------------- 
+footer{
+    background-color: #f55dd6; 
+    height: 20%;
+}*/
+
+
+
+/*MAIN
+.caja-contenedora{
+    background-color:violet;
+      width:100%;
+      height:600dvh;
+      display:flex;
+      justify-content:center;
+    }*/
+    
+    /*SECTION
+    .caja{
+      background-color:black;
+      width:90%;
+      height:90dvh;
+      display:flex;
+      justify-content: center;
+    }*/
+    /*FIGURE
+    .caja-1-foto{
+     background-color:#14f41bd4;
+      width:20%;
+      height:40%;
+      display:flex;
+      position:relative;
+    }*/
+    /*DIV FOTO -IMG-
+    .foto-naturaleza{
+      background-color:#fe3e3e;
+        width: 40%;
+        height: 40%;
+      margin-top:4%;
+      margin-left:20%;
+      
+    }*/
+    /*OL
+    .lista{background-color:violet;
+      color:white;
+      font-size: 20px;
+    }
+    
+    .caja-2-foto{
+       background-color:#fef43e;
+        width: 20%;
+        height: 40%;
+      
+    }.foto-tecnologia{
+      background-color:#3e71fe;
+      width:50%;
+      height:30%;
+      display: flex;
+      margin-top:9%;
+      margin-left:40%;
+      
+    }
+    */
